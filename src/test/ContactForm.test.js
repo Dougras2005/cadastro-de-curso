@@ -23,7 +23,7 @@ test('chama onSubmit com dados corretos', () => {
   });
 });
 
-test('atualiza contato existente', () => {
+test('atualiza curso existente', () => {
   const handleSubmit = jest.fn();
   const contatoExistente = {
     nomeCurso: 'Java',

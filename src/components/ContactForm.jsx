@@ -5,7 +5,7 @@ const ContactForm = ({ contact, onSubmit }) => {
   const [cargaHoraria, setCargaHoraria] = useState("");
   const [errors, setErrors] = useState({});
 
-  // Se vier um contato existente, preenche os campos
+  // Se vier um curso existente, preenche os campos
   useEffect(() => {
     if (contact) {
       setNomeCurso(contact.nomeCurso || "");
