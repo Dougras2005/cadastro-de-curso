@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import ContactForm from '../components/ContactForm';
+import ContactForm from '../components/CadastroDeCurso';
 
 test('renderiza inputs de Nome do Curso e Carga Horária do Curso', () => {
   render(<ContactForm />);
